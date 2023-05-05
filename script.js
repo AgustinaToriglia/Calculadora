@@ -1,4 +1,4 @@
-const display = document.querySelector("#display");
+/* const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach((item)=>{
@@ -27,10 +27,10 @@ themeToggleBtn.onclick=()=>{
     calculator.classList.toggle("dark")
     themeToggleBtn.classList.toggle("active")
     isDark=!isDark;
-}
+} */
 
 
-/* const display = document.querySelector("#display");
+const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 
 // Define una función para actualizar el contenido del display
@@ -97,4 +97,3 @@ themeToggleBtn.addEventListener("click", () => {
     themeToggleBtn.classList.toggle("active");
     isDark = !isDark;
 });
- */
